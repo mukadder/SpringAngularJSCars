@@ -20,6 +20,7 @@ public class LuigisController implements BeanFactoryAware {
     public void setBeanFactory(BeanFactory context) {
     	cars = (Cars)context.getBean("Cars");
     	Car css= new Car();
+    	Car ddd= new Car()
     }
 
     @RequestMapping(value="/", method = RequestMethod.GET)
