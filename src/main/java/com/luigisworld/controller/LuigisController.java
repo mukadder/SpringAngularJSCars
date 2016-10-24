@@ -19,6 +19,7 @@ public class LuigisController implements BeanFactoryAware {
 
     public void setBeanFactory(BeanFactory context) {
     	cars = (Cars)context.getBean("Cars");
+    	Car css= new Car();
     }
 
     @RequestMapping(value="/", method = RequestMethod.GET)
@@ -26,7 +27,7 @@ public class LuigisController implements BeanFactoryAware {
         model.put("cars", cars.getSubList(0, NUM_CARS));
         return "index";
     }
-    
+
     @RequestMapping(value="/load/{page}", method = RequestMethod.POST)
     public @ResponseBody String getCars(@PathVariable int page){
         //remember that toString() has been overridden
