@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="Cars" class="com.luigisworld.model.Cars">
+    <property name="carList">
+        <list>
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car1.jpg"/>
+                <property name="name" value="Porsche 911"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car2.jpg"/>
+                <property name="name" value="Classic 1"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car3.jpg"/>
+                <property name="name" value="Classic 2"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car4.jpg"/>
+                <property name="name" value="Lexus Concept"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car5.jpg"/>
+                <property name="name" value="Kia Ray"/>
+            </bean>
+           
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car6.jpg"/>
+                <property name="name" value="Renault Alpine"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car7.jpg"/>
+                <property name="name" value="Black sport car"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car8.jpg"/>
+                <property name="name" value="Audi A1"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car9.jpg"/>
+                <property name="name" value="Lamborghini egoista"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car10.jpg"/>
+                <property name="name" value="Audi R8"/>
+            </bean>
+        
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car11.jpg"/>
+                <property name="name" value="Mazda Furai"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car12.jpg"/>
+                <property name="name" value="BMW M6"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car13.jpg"/>
+                <property name="name" value="Ferrari"/>
+            </bean>
+           
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car14.jpg"/>
+                <property name="name" value="BMWi"/>
+            </bean>
+ 
+            <bean class="com.luigisworld.model.Car">
+                <property name="src" value="images/car15.jpg"/>
+                <property name="name" value="Bugatti Veyron"/>
+            </bean>
+        </list>
+    </property>
+</bean>
+
+</beans>
